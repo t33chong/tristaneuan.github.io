@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>TEC knowledgey</title>
+  <title>Set Up Your Own IRC Bouncer and Custom Hostname - TEC knowledgey</title>
   <meta name="author" content="Tristan Chong">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://tristaneuan.github.io">
+  <link rel="canonical" href="http://tristaneuan.github.io/blog/2013/09/02/set-up-your-own-irc-bouncer-and-custom-hostname">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="TEC knowledgey" type="application/atom+xml">
@@ -63,15 +63,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/09/02/set-up-your-own-irc-bouncer-and-custom-hostname/">Set Up Your Own IRC Bouncer and Custom Hostname</a></h1>
+      <h1 class="entry-title">Set Up Your Own IRC Bouncer and Custom Hostname</h1>
     
     
       <p class="meta">
@@ -94,7 +91,7 @@
   </header>
 
 
-  <div class="entry-content"><p>A bunch of my friends have been raving about <a href="https://www.irccloud.com/">IRC Cloud</a>, which gives users a persistent connection to an IRC server, allowing them to stay in chatrooms even when they close their clients. It’s a cool product, and while it has a native mobile app, the only way to access the service on a desktop computer is through a browser. As I like to use all my chat services in a single client inasmuch as it’s possible (/me shakes fist at Skype), I resigned myself to the idea of signing out whenever I close the lid of my laptop. Sure, it’s nice having continuous logs and not missing mentions in group chat, but switching from my Adium setup wasn’t enough to sway me.</p>
+<div class="entry-content"><p>A bunch of my friends have been raving about <a href="https://www.irccloud.com/">IRC Cloud</a>, which gives users a persistent connection to an IRC server, allowing them to stay in chatrooms even when they close their clients. It’s a cool product, and while it has a native mobile app, the only way to access the service on a desktop computer is through a browser. As I like to use all my chat services in a single client inasmuch as it’s possible (/me shakes fist at Skype), I resigned myself to the idea of signing out whenever I close the lid of my laptop. Sure, it’s nice having continuous logs and not missing mentions in group chat, but switching from my Adium setup wasn’t enough to sway me.</p>
 
 <p>But it turns out I can eat my cake and have it too! My friend <a href="http://philkates.com/">Phil</a> told me about IRC bouncers, and specifically recommended <a href="http://wiki.znc.in/ZNC">ZNC</a>, so I looked into it. It works with Adium, so I can have the benefits of a persistent connection while continuing to consolidate my chat experience in my favorite client! Also, if I happen to be away from my computer, <a href="https://github.com/jreese/znc-push">ZNC Push</a> notifies me whenever I’m mentioned or privately messaged. As a bonus, I was also able to configure a custom hostname so that my personal domain appears when someone does a /whois on my nick. I’ll be walking you through the steps I took to set all of this up.</p>
 
@@ -231,18 +228,57 @@ If you’re using a VPS that utilizes a management system like SolusVM, there ma
 
 <p>That’s it! I had fun spending a few hours Googling SO MANY THINGS, and I hope that documenting all of it in this post helps some of you who are inspired to set up ZNC for yourselves.</p>
 </div>
+
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Tristan Chong</span></span>
+
+      
+
+
+
+
+
+
+
+
   
 
 
-    </article>
+<time datetime="2013-09-02T04:22:10-07:00" pubdate data-updated="true">Sep 2<span>nd</span>, 2013</time>
+      
+
+<span class="categories">
   
-  <div class="pagination">
+    <a class='category' href='/blog/categories/irc/'>IRC</a>, <a class='category' href='/blog/categories/linux/'>Linux</a>, <a class='category' href='/blog/categories/software/'>Software</a>
+  
+</span>
+
+
+    </p>
     
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://tristaneuan.github.io/blog/2013/09/02/set-up-your-own-irc-bouncer-and-custom-hostname/" data-via="" data-counturl="http://tristaneuan.github.io/blog/2013/09/02/set-up-your-own-irc-bouncer-and-custom-hostname/" >Tweet</a>
+  
+  
+  
 </div>
+
+    
+    <p class="meta">
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -262,6 +298,7 @@ If you’re using a VPS that utilizes a management system like SolusVM, there ma
 
   
 </aside>
+
 
     </div>
   </div>
